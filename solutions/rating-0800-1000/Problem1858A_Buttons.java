@@ -1,5 +1,5 @@
 /*
- * Serial: #018
+ * Serial: #816
  * Problem: Buttons (1858A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1858/A

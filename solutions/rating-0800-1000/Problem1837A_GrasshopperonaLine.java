@@ -1,5 +1,5 @@
 /*
- * Serial: #022
+ * Serial: #820
  * Problem: Grasshopper on a Line (1837A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1837/A

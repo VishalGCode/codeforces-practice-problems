@@ -1,5 +1,5 @@
 /*
- * Serial: #021
+ * Serial: #819
  * Problem: Forbidden Integer (1845A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1845/A

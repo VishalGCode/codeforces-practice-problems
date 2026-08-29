@@ -1,5 +1,5 @@
 /*
- * Serial: #008
+ * Serial: #806
  * Problem: Jagged Swaps (1896A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1896/A

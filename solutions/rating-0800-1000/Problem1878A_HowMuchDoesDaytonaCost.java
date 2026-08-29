@@ -1,5 +1,5 @@
 /*
- * Serial: #011
+ * Serial: #809
  * Problem: How Much Does Daytona Cost? (1878A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1878/A

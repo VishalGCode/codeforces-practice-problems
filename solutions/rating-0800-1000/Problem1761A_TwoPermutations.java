@@ -1,5 +1,5 @@
 /*
- * Serial: #030
+ * Serial: #828
  * Problem: Two Permutations (1761A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1761/A

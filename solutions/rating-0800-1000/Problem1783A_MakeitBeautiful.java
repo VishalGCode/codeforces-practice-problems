@@ -1,5 +1,5 @@
 /*
- * Serial: #033
+ * Serial: #831
  * Problem: Make it Beautiful (1783A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1783/A

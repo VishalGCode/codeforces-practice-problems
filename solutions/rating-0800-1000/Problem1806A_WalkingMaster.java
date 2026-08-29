@@ -1,5 +1,5 @@
 /*
- * Serial: #027
+ * Serial: #825
  * Problem: Walking Master (1806A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1806/A

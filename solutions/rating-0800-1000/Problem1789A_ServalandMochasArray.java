@@ -1,5 +1,5 @@
 /*
- * Serial: #031
+ * Serial: #829
  * Problem: Serval and Mocha's Array (1789A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1789/A

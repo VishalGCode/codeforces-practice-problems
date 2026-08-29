@@ -1,5 +1,5 @@
 /*
- * Serial: #023
+ * Serial: #821
  * Problem: Unit Array (1834A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1834/A

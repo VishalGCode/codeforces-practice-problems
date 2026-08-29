@@ -1,5 +1,5 @@
 /*
- * Serial: #026
+ * Serial: #824
  * Problem: Coins (1814A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1814/A

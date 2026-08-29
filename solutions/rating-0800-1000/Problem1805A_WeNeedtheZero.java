@@ -1,5 +1,5 @@
 /*
- * Serial: #028
+ * Serial: #826
  * Problem: We Need the Zero (1805A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1805/A

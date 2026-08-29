@@ -1,5 +1,5 @@
 /*
- * Serial: #007
+ * Serial: #805
  * Problem: Game with Integers (1899A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1899/A

@@ -1,5 +1,5 @@
 /*
- * Serial: #013
+ * Serial: #811
  * Problem: Three Numbers on the Blackboard (2256A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/2256/A

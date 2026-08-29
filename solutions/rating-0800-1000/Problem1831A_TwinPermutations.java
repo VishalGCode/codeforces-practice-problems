@@ -1,5 +1,5 @@
 /*
- * Serial: #024
+ * Serial: #822
  * Problem: Twin Permutations (1831A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1831/A

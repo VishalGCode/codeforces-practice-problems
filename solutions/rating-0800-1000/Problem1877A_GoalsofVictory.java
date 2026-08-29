@@ -1,5 +1,5 @@
 /*
- * Serial: #012
+ * Serial: #810
  * Problem: Goals of Victory (1877A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1877/A

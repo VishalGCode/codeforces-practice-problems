@@ -1,5 +1,5 @@
 /*
- * Serial: #015
+ * Serial: #813
  * Problem: Ambitious Kid (1866A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1866/A

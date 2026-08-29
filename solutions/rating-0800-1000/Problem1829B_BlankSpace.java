@@ -1,5 +1,5 @@
 /*
- * Serial: #025
+ * Serial: #823
  * Problem: Blank Space (1829B)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1829/B

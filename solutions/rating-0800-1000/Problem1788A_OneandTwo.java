@@ -1,5 +1,5 @@
 /*
- * Serial: #032
+ * Serial: #830
  * Problem: One and Two (1788A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1788/A

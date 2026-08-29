@@ -1,5 +1,5 @@
 /*
- * Serial: #005
+ * Serial: #803
  * Problem: Another Popcount Problem (2240A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/2240/A

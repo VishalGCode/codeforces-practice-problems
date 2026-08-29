@@ -1,5 +1,5 @@
 /*
- * Serial: #014
+ * Serial: #812
  * Problem: Target Practice (1873C)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1873/C

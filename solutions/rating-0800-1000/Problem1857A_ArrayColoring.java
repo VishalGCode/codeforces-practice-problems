@@ -1,5 +1,5 @@
 /*
- * Serial: #019
+ * Serial: #817
  * Problem: Array Coloring (1857A)
  * Rating: 800
  * Link: https://codeforces.com/problemset/problem/1857/A
