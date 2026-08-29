@@ -55,9 +55,11 @@ def update_readme_and_files():
         return
 
     readme_path = "README.md"
+    
+    # Initialize README.md with standard centered table header if missing/empty
     if not os.path.exists(readme_path) or os.stat(readme_path).st_size == 0:
         with open(readme_path, "w", encoding="utf-8") as f:
-            f.write("# Codeforces Journey\n\n| # | Problem Name | Rating | Solution Link |\n|---|---|---|---|\n")
+            f.write("# Codeforces Journey\n\n| # | Problem Name | Rating | Solution Link |\n|:---:|:---|:---:|:---:|\n")
 
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -94,26 +96,30 @@ def update_readme_and_files():
         class_name = f"Problem{contest_id}{index}_{clean_name}"
         file_path = os.path.join(folder, f"{class_name}.java")
 
-        # Fetch actual source code from Codeforces web page
+        # Scrape source code from Codeforces
         code = fetch_solution_code(contest_id, sub_id)
         
-        # Write to file (uses fetched source code if available, otherwise falls back to standard header)
+        # Write code to Java file
         with open(file_path, "w", encoding="utf-8") as jf:
-            header = f"/*\n * Serial: #{serial_str}\n * Problem: {name} ({contest_id}{index})\n * Rating: {rating}\n * Link: https://codeforces.com/problemset/problem/{contest_id}/{index}\n */\n\n"
+            comment_header = f"/*\n * Serial: #{serial_str}\n * Problem: {name} ({contest_id}{index})\n * Rating: {rating}\n * Link: https://codeforces.com/problemset/problem/{contest_id}/{index}\n */\n\n"
             if code:
-                jf.write(header + code)
+                jf.write(comment_header + code)
             else:
-                jf.write(f"{header}public class {class_name} {{\n    public static void main(String[] args) {{\n        // Solution code could not be retrieved\n    }}\n}}\n")
+                jf.write(f"{comment_header}public class {class_name} {{\n    public static void main(String[] args) {{\n        // Solution code could not be retrieved\n    }}\n}}\n")
 
+        # Format markdown links (convert Windows backslashes to forward slashes for URLs)
+        web_file_path = file_path.replace("\\", "/")
         problem_link = f"[{contest_id}{index} - {name}](https://codeforces.com/problemset/problem/{contest_id}/{index})"
-        solution_link = f"[Java Solution]({file_path})"
+        solution_link = f"[Java Solution]({web_file_path})"
+        
+        # Append formatted markdown table row
         new_rows.append(f"| {serial_str} | {problem_link} | {rating} | {solution_link} |")
 
     if new_rows:
         with open(readme_path, "a", encoding="utf-8") as f:
             for row in new_rows:
                 f.write(row + "\n")
-        print(f"Updated {len(new_rows)} solutions with actual source code.")
+        print(f"Successfully updated {len(new_rows)} solutions with source code and formatted table rows.")
 
 if __name__ == "__main__":
     update_readme_and_files()
