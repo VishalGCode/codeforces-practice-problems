@@ -28,9 +28,6 @@
 |:---:|:---|:---:|:---:|
 | 001 | [4A - Watermelon](https://codeforces.com/problemset/problem/4/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem4A_Watermelon.java) |
 | 002 | [2244B - Nikita and Books](https://codeforces.com/problemset/problem/2244/B) | 800 | [Java Solution](solutions/rating-0800-1000/Problem2244B_NikitaandBooks.java) |
-
----
-
 | 801 | [1903A - Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1903A_HalloumiBoxes.java) |
 | 802 | [1901A - Line Trip](https://codeforces.com/problemset/problem/1901/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1901A_LineTrip.java) |
 | 803 | [2240A - Another Popcount Problem](https://codeforces.com/problemset/problem/2240/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem2240A_AnotherPopcountProblem.java) |
