@@ -1,75 +1,75 @@
 import os
 import re
+import html
 import requests
+from bs4 import BeautifulSoup
 
-# -------------------------------------------------------------
-# CONFIGURATION
-# -------------------------------------------------------------
-CF_HANDLE = "_vishalgupta_"  # Updated Codeforces Handle
+CF_HANDLE = "_vishalgupta_"
 
+# Standard headers to prevent Codeforces from blocking request calls
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
 
 def fetch_accepted_submissions():
-    """Fetches user submissions from Codeforces API and filters for Java OK verdicts."""
     url = f"https://codeforces.com/api/user.status?handle={CF_HANDLE}&from=1&count=1000"
     try:
-        response = requests.get(url).json()
+        response = requests.get(url, headers=HEADERS).json()
         if response.get("status") != "OK":
-            print(f"Error fetching data from API: {response.get('comment')}")
             return []
-    except Exception as e:
-        print(f"Request failed: {e}")
+    except Exception:
         return []
 
     accepted = []
     for sub in response.get("result", []):
-        # Check for Accepted verdict and Java programming language
-        if sub.get("verdict") == "OK" and "Java" in sub.get(
-            "programmingLanguage", ""
-        ):
+        if sub.get("verdict") == "OK" and "Java" in sub.get("programmingLanguage", ""):
             accepted.append(sub)
 
-    # Reverse to process oldest submissions first to maintain sequential order
     return list(reversed(accepted))
 
+def fetch_solution_code(contest_id, submission_id):
+    """Scrapes the actual submitted Java source code from Codeforces submission page."""
+    url = f"https://codeforces.com/contest/{contest_id}/submission/{submission_id}"
+    try:
+        res = requests.get(url, headers=HEADERS)
+        if res.status_code == 200:
+            soup = BeautifulSoup(res.text, "html.parser")
+            code_element = soup.find("pre", id="program-source-text")
+            if code_element:
+                return html.unescape(code_element.text)
+    except Exception as e:
+        print(f"Failed to fetch code for submission {submission_id}: {e}")
+    return None
 
 def get_rating_folder(rating):
-    """Determines the rating directory based on problem rating."""
     if rating is None or not isinstance(rating, int):
         return "solutions/rating-unrated"
     lower = (rating // 200) * 200
     upper = lower + 200
     return f"solutions/rating-{lower:04d}-{upper:04d}"
 
-
 def update_readme_and_files():
-    """Reads submissions, creates Java solution files, and updates README.md."""
     submissions = fetch_accepted_submissions()
     if not submissions:
-        print("No new Java accepted submissions found.")
+        print("No Java accepted submissions found.")
         return
 
     readme_path = "README.md"
-
-    # Initialize README.md with header if missing or empty
     if not os.path.exists(readme_path) or os.stat(readme_path).st_size == 0:
         with open(readme_path, "w", encoding="utf-8") as f:
-            f.write(
-                "# Codeforces Journey\n\n| # | Problem Name | Rating | Solution Link |\n|---|---|---|---|\n"
-            )
+            f.write("# Codeforces Journey\n\n| # | Problem Name | Rating | Solution Link |\n|---|---|---|---|\n")
 
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Track logged problems to prevent duplicates
     existing_ids = set(re.findall(r"problem/(\d+/[A-Z\d]+)", content))
-
-    # Find the current highest serial number
     serial_matches = re.findall(r"\|\s*(\d{3})\s*\|", content)
     serial_counter = int(serial_matches[-1]) if serial_matches else 0
 
     new_rows = []
 
     for sub in submissions:
+        sub_id = sub.get("id")
         problem = sub["problem"]
         contest_id = problem.get("contestId")
         index = problem.get("index")
@@ -87,48 +87,33 @@ def update_readme_and_files():
         serial_counter += 1
         serial_str = f"{serial_counter:03d}"
 
-        # Get target directory based on rating
         folder = get_rating_folder(rating)
         os.makedirs(folder, exist_ok=True)
 
-        # Sanitize class name for Java compliance
         clean_name = re.sub(r"[^a-zA-Z0-9]", "", name)
         class_name = f"Problem{contest_id}{index}_{clean_name}"
-        file_name = f"{class_name}.java"
-        file_path = os.path.join(folder, file_name)
+        file_path = os.path.join(folder, f"{class_name}.java")
 
-        # Create boilerplate Java file if missing
-        if not os.path.exists(file_path):
-            with open(file_path, "w", encoding="utf-8") as jf:
-                jf.write(
-                    f"/*\n"
-                    f" * Serial: #{serial_str}\n"
-                    f" * Problem: {name} ({contest_id}{index})\n"
-                    f" * Rating: {rating}\n"
-                    f" * Link: https://codeforces.com/problemset/problem/{contest_id}/{index}\n"
-                    f" */\n\n"
-                    f"public class {class_name} {{\n"
-                    f"    public static void main(String[] args) {{\n"
-                    f"        // Solution for {name}\n"
-                    f"    }}\n"
-                    f"}}\n"
-                )
+        # Fetch actual source code from Codeforces web page
+        code = fetch_solution_code(contest_id, sub_id)
+        
+        # Write to file (uses fetched source code if available, otherwise falls back to standard header)
+        with open(file_path, "w", encoding="utf-8") as jf:
+            header = f"/*\n * Serial: #{serial_str}\n * Problem: {name} ({contest_id}{index})\n * Rating: {rating}\n * Link: https://codeforces.com/problemset/problem/{contest_id}/{index}\n */\n\n"
+            if code:
+                jf.write(header + code)
+            else:
+                jf.write(f"{header}public class {class_name} {{\n    public static void main(String[] args) {{\n        // Solution code could not be retrieved\n    }}\n}}\n")
 
-        # Prepare entry for README table
         problem_link = f"[{contest_id}{index} - {name}](https://codeforces.com/problemset/problem/{contest_id}/{index})"
         solution_link = f"[Java Solution]({file_path})"
-        row = f"| {serial_str} | {problem_link} | {rating} | {solution_link} |"
-        new_rows.append(row)
+        new_rows.append(f"| {serial_str} | {problem_link} | {rating} | {solution_link} |")
 
-    # Append new rows to README.md
     if new_rows:
         with open(readme_path, "a", encoding="utf-8") as f:
             for row in new_rows:
                 f.write(row + "\n")
-        print(f"Successfully added {len(new_rows)} new solutions.")
-    else:
-        print("All Java submissions are already logged.")
-
+        print(f"Updated {len(new_rows)} solutions with actual source code.")
 
 if __name__ == "__main__":
     update_readme_and_files()

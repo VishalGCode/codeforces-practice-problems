@@ -2,8 +2,8 @@ name: Sync Codeforces Journey
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # Automatically runs every 6 hours
-  workflow_dispatch:          # Allows manual trigger from GitHub UI
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -18,7 +18,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: pip install requests beautifulsoup4
 
       - name: Run Sync Script
         run: python scripts/update_journey.py
