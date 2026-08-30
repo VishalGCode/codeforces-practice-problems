@@ -59,3 +59,5 @@
 | 829 | [1789A - Serval and Mocha's Array](https://codeforces.com/problemset/problem/1789/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1789A_ServalandMochasArray.java) |
 | 830 | [1788A - One and Two](https://codeforces.com/problemset/problem/1788/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1788A_OneandTwo.java) |
 | 831 | [1783A - Make it Beautiful](https://codeforces.com/problemset/problem/1783/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1783A_MakeitBeautiful.java) |
+| 801 | [1777A - Everybody Likes Good Arrays!](https://codeforces.com/problemset/problem/1777/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1777A_EverybodyLikesGoodArrays.java) |
+| 802 | [1766A - Extremely Round](https://codeforces.com/problemset/problem/1766/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1766A_ExtremelyRound.java) |
