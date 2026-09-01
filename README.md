@@ -61,3 +61,4 @@
 | 831 | [1783A - Make it Beautiful](https://codeforces.com/problemset/problem/1783/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1783A_MakeitBeautiful.java) |
 | 801 | [1777A - Everybody Likes Good Arrays!](https://codeforces.com/problemset/problem/1777/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1777A_EverybodyLikesGoodArrays.java) |
 | 802 | [1766A - Extremely Round](https://codeforces.com/problemset/problem/1766/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1766A_ExtremelyRound.java) |
+| 801 | [1904A - Forked!](https://codeforces.com/problemset/problem/1904/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1904A_Forked.java) |
