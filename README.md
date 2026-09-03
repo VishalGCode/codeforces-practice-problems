@@ -63,3 +63,4 @@
 | 802 | [1766A - Extremely Round](https://codeforces.com/problemset/problem/1766/A) | 800 | [Java Solution](solutions/rating-0800-1000/Problem1766A_ExtremelyRound.java) |
 | 801 | [1904A - Forked!](https://codeforces.com/problemset/problem/1904/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1904A_Forked.java) |
 | 901 | [1883B - Chemistry](https://codeforces.com/problemset/problem/1883/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1883B_Chemistry.java) |
+| 901 | [1878C - Vasilije in Cacak](https://codeforces.com/problemset/problem/1878/C) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1878C_VasilijeinCacak.java) |
