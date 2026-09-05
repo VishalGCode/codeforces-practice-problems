@@ -65,3 +65,4 @@
 | 901 | [1883B - Chemistry](https://codeforces.com/problemset/problem/1883/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1883B_Chemistry.java) |
 | 901 | [1878C - Vasilije in Cacak](https://codeforces.com/problemset/problem/1878/C) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1878C_VasilijeinCacak.java) |
 | 901 | [1875A - Jellyfish and Undertale](https://codeforces.com/problemset/problem/1875/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1875A_JellyfishandUndertale.java) |
+| 901 | [1869A - Make It Zero](https://codeforces.com/problemset/problem/1869/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1869A_MakeItZero.java) |
