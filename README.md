@@ -67,3 +67,7 @@
 | 901 | [1875A - Jellyfish and Undertale](https://codeforces.com/problemset/problem/1875/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1875A_JellyfishandUndertale.java) |
 | 901 | [1869A - Make It Zero](https://codeforces.com/problemset/problem/1869/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1869A_MakeItZero.java) |
 | 901 | [1855B - Longest Divisors Interval](https://codeforces.com/problemset/problem/1855/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1855B_LongestDivisorsInterval.java) |
+| 901 | [1850D - Balanced Round](https://codeforces.com/problemset/problem/1850/D) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1850D_BalancedRound.java) |
+| 902 | [1837B - Comparison String](https://codeforces.com/problemset/problem/1837/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1837B_ComparisonString.java) |
+| 903 | [1828B - Permutation Swap](https://codeforces.com/problemset/problem/1828/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1828B_PermutationSwap.java) |
+| 904 | [1807D - Odd Queries](https://codeforces.com/problemset/problem/1807/D) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1807D_OddQueries.java) |
