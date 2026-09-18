@@ -71,3 +71,7 @@
 | 902 | [1837B - Comparison String](https://codeforces.com/problemset/problem/1837/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1837B_ComparisonString.java) |
 | 903 | [1828B - Permutation Swap](https://codeforces.com/problemset/problem/1828/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1828B_PermutationSwap.java) |
 | 904 | [1807D - Odd Queries](https://codeforces.com/problemset/problem/1807/D) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1807D_OddQueries.java) |
+| 901 | [1794B - Not Dividing](https://codeforces.com/problemset/problem/1794/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1794B_NotDividing.java) |
+| 902 | [1726A - Mainak and Array](https://codeforces.com/problemset/problem/1726/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1726A_MainakandArray.java) |
+| 903 | [1696B - NIT Destroys the Universe](https://codeforces.com/problemset/problem/1696/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1696B_NITDestroystheUniverse.java) |
+| 904 | [1679A - AvtoBus](https://codeforces.com/problemset/problem/1679/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1679A_AvtoBus.java) |
