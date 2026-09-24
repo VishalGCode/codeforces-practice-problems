@@ -75,3 +75,9 @@
 | 902 | [1726A - Mainak and Array](https://codeforces.com/problemset/problem/1726/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1726A_MainakandArray.java) |
 | 903 | [1696B - NIT Destroys the Universe](https://codeforces.com/problemset/problem/1696/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1696B_NITDestroystheUniverse.java) |
 | 904 | [1679A - AvtoBus](https://codeforces.com/problemset/problem/1679/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1679A_AvtoBus.java) |
+| 901 | [1675B - Make It Increasing](https://codeforces.com/problemset/problem/1675/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1675B_MakeItIncreasing.java) |
+| 902 | [1666D - Deletive Editing](https://codeforces.com/problemset/problem/1666/D) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1666D_DeletiveEditing.java) |
+| 903 | [1665B - Array Cloning Technique](https://codeforces.com/problemset/problem/1665/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1665B_ArrayCloningTechnique.java) |
+| 904 | [1624B - Make AP](https://codeforces.com/problemset/problem/1624/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1624B_MakeAP.java) |
+| 905 | [1607B - Odd Grasshopper](https://codeforces.com/problemset/problem/1607/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1607B_OddGrasshopper.java) |
+| 906 | [1606A - AB Balance](https://codeforces.com/problemset/problem/1606/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1606A_ABBalance.java) |
