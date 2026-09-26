@@ -81,3 +81,9 @@
 | 904 | [1624B - Make AP](https://codeforces.com/problemset/problem/1624/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1624B_MakeAP.java) |
 | 905 | [1607B - Odd Grasshopper](https://codeforces.com/problemset/problem/1607/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1607B_OddGrasshopper.java) |
 | 906 | [1606A - AB Balance](https://codeforces.com/problemset/problem/1606/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1606A_ABBalance.java) |
+| 901 | [1593B - Make it Divisible by 25](https://codeforces.com/problemset/problem/1593/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1593B_MakeitDivisibleby25.java) |
+| 902 | [1582B - Luntik and Subsequences](https://codeforces.com/problemset/problem/1582/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1582B_LuntikandSubsequences.java) |
+| 903 | [1559A - Mocha and Math](https://codeforces.com/problemset/problem/1559/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1559A_MochaandMath.java) |
+| 904 | [1543A - Exciting Bets](https://codeforces.com/problemset/problem/1543/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1543A_ExcitingBets.java) |
+| 905 | [1537B - Bad Boy](https://codeforces.com/problemset/problem/1537/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1537B_BadBoy.java) |
+| 906 | [1475A - Odd Divisor](https://codeforces.com/problemset/problem/1475/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1475A_OddDivisor.java) |
