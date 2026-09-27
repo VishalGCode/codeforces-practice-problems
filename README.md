@@ -87,3 +87,4 @@
 | 904 | [1543A - Exciting Bets](https://codeforces.com/problemset/problem/1543/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1543A_ExcitingBets.java) |
 | 905 | [1537B - Bad Boy](https://codeforces.com/problemset/problem/1537/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1537B_BadBoy.java) |
 | 906 | [1475A - Odd Divisor](https://codeforces.com/problemset/problem/1475/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1475A_OddDivisor.java) |
+| 901 | [1471A - Strange Partition](https://codeforces.com/problemset/problem/1471/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1471A_StrangePartition.java) |
