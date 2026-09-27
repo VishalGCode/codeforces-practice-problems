@@ -88,3 +88,7 @@
 | 905 | [1537B - Bad Boy](https://codeforces.com/problemset/problem/1537/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1537B_BadBoy.java) |
 | 906 | [1475A - Odd Divisor](https://codeforces.com/problemset/problem/1475/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1475A_OddDivisor.java) |
 | 901 | [1471A - Strange Partition](https://codeforces.com/problemset/problem/1471/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1471A_StrangePartition.java) |
+| 901 | [1440B - Sum of Medians](https://codeforces.com/problemset/problem/1440/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1440B_SumofMedians.java) |
+| 902 | [1380A - Three Indices](https://codeforces.com/problemset/problem/1380/A) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1380A_ThreeIndices.java) |
+| 903 | [1373B - 01 Game](https://codeforces.com/problemset/problem/1373/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1373B_01Game.java) |
+| 904 | [1374B - Multiply by 2, divide by 6](https://codeforces.com/problemset/problem/1374/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1374B_Multiplyby2divideby6.java) |
