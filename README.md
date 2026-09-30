@@ -94,3 +94,5 @@
 | 904 | [1374B - Multiply by 2, divide by 6](https://codeforces.com/problemset/problem/1374/B) | 900 | [Java Solution](solutions/rating-0800-1000/Problem1374B_Multiplyby2divideby6.java) |
 | 901 | [1913B - Swap and Delete](https://codeforces.com/problemset/problem/1913/B) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1913B_SwapandDelete.java) |
 | 902 | [1883C - Raspberries](https://codeforces.com/problemset/problem/1883/C) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1883C_Raspberries.java) |
+| 903 | [1876A - Helmets in Night Light](https://codeforces.com/problemset/problem/1876/A) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1876A_HelmetsinNightLight.java) |
+| 904 | [1859B - Olya and Game with Arrays](https://codeforces.com/problemset/problem/1859/B) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1859B_OlyaandGamewithArrays.java) |
