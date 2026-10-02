@@ -96,3 +96,5 @@
 | 902 | [1883C - Raspberries](https://codeforces.com/problemset/problem/1883/C) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1883C_Raspberries.java) |
 | 903 | [1876A - Helmets in Night Light](https://codeforces.com/problemset/problem/1876/A) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1876A_HelmetsinNightLight.java) |
 | 904 | [1859B - Olya and Game with Arrays](https://codeforces.com/problemset/problem/1859/B) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1859B_OlyaandGamewithArrays.java) |
+| 905 | [1849B - Monsters](https://codeforces.com/problemset/problem/1849/B) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1849B_Monsters.java) |
+| 906 | [1840C - Ski Resort](https://codeforces.com/problemset/problem/1840/C) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1840C_SkiResort.java) |
