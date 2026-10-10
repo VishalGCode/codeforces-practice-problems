@@ -98,3 +98,5 @@
 | 904 | [1859B - Olya and Game with Arrays](https://codeforces.com/problemset/problem/1859/B) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1859B_OlyaandGamewithArrays.java) |
 | 905 | [1849B - Monsters](https://codeforces.com/problemset/problem/1849/B) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1849B_Monsters.java) |
 | 906 | [1840C - Ski Resort](https://codeforces.com/problemset/problem/1840/C) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1840C_SkiResort.java) |
+| 907 | [1831B - Array merging](https://codeforces.com/problemset/problem/1831/B) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1831B_Arraymerging.java) |
+| 908 | [1791D - Distinct Split](https://codeforces.com/problemset/problem/1791/D) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1791D_DistinctSplit.java) |
