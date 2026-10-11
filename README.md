@@ -102,3 +102,4 @@
 | 908 | [1791D - Distinct Split](https://codeforces.com/problemset/problem/1791/D) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1791D_DistinctSplit.java) |
 | 909 | [1765M - Minimum LCM](https://codeforces.com/problemset/problem/1765/M) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1765M_MinimumLCM.java) |
 | 910 | [1744C - Traffic Light](https://codeforces.com/problemset/problem/1744/C) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1744C_TrafficLight.java) |
+| 911 | [1725B - Basketball Together](https://codeforces.com/problemset/problem/1725/B) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1725B_BasketballTogether.java) |
