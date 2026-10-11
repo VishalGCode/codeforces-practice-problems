@@ -100,3 +100,5 @@
 | 906 | [1840C - Ski Resort](https://codeforces.com/problemset/problem/1840/C) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1840C_SkiResort.java) |
 | 907 | [1831B - Array merging](https://codeforces.com/problemset/problem/1831/B) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1831B_Arraymerging.java) |
 | 908 | [1791D - Distinct Split](https://codeforces.com/problemset/problem/1791/D) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1791D_DistinctSplit.java) |
+| 909 | [1765M - Minimum LCM](https://codeforces.com/problemset/problem/1765/M) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1765M_MinimumLCM.java) |
+| 910 | [1744C - Traffic Light](https://codeforces.com/problemset/problem/1744/C) | 1000 | [Java Solution](solutions/rating-1000-1200/Problem1744C_TrafficLight.java) |
